@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Salarios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="2"
+            android:text="@string/ej3_label_titulo"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/txtNombre1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtApellidos1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Apellidos"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/txtCargo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/txtHoras1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:hint="@string/ej3_label_label4"
+            android:layout_marginBottom="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/accent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/txtNombre2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/txtApellidos2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Apellidos"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/txtCargo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/txtHoras2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:hint="@string/ej3_label_label4"
+            android:layout_marginBottom="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/accent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/txtNombre3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtApellidos3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Apellidos"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/txtCargo3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:spinnerMode="dropdown" />
+        <EditText
+            android:id="@+id/txtHoras3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="number"
+            android:hint="@string/ej3_label_label4"
+            android:layout_marginBottom="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/accent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="2"
+            android:text="@string/ej1_label_resultados"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/txtNombreR1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <EditText
+            android:id="@+id/txtDescuento1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Descuento"
+            android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtNeto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Salario Neto"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtNombreR2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/txtDescuento2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Descuento"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtNeto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Salario Neto"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtNombreR3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/txtDescuento3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Descuento"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtNeto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Salario Neto"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtMayor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Mayor Salario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtMenor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Menor Salario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Ganan más de $300"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/accent"
+            android:backgroundTint="@color/accent"
+            android:text="@string/ej3_btn"
+            android:textColor="@color/icons" />
+    </LinearLayout>
+
+
+</ScrollView>

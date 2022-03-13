@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Taller 1 DSM</string>
+
+    <string name="app_menu_header1">Universidad Don Bosco - DSM</string>
+    <string name="app_menu_header2">Menú</string>
+    <string name="app_menu_open">Abrir</string>
+    <string name="app_menu_close">Cerrar</string>
+
+    <string name="app_menu1">Cuadrática</string>
+    <string name="app_menu2">Votación</string>
+    <string name="app_menu3">Salarios</string>
+
+    <string name="ej1_label_titulo">Formula Cuadrática</string>
+    <string name="ej1_label_a">Valor de X^2</string>
+    <string name="ej1_label_b">Valor de X</string>
+    <string name="ej1_label_c">Valor de C</string>
+    <string name="ej1_label_calcular">Calcular</string>
+    <string name="ej1_label_resultados">Resultados</string>
+    <string name="ej1_label_x1">Valor de X1</string>
+    <string name="ej1_label_x2">Valor de X2</string>
+
+    <string name="ej2_label_titulo">Conteo de Votos</string>
+    <string name="ej2_label">Listado de Votos</string>
+    <string name="ej2_label_diputado">Diputado </string>
+    <string name="ej2_label_total">Total Votos </string>
+    <string name="ej2_label_porcentaje">Porcentaje </string>
+    <string name="ej2_contar">Contar Votos</string>
+
+    <string name="ej3_label_titulo">Calculo de Salario</string>
+    <string name="ej3_label_label1">Nombre</string>
+    <string name="ej3_label_label2">Apellido</string>
+    <string name="ej3_label_label3">Cargo</string>
+    <string name="ej3_label_label4">Horas Trabajadas</string>
+
+    <string-array name="ej3_cargos">
+        <item>Empleado</item>
+        <item>Secretaria</item>
+        <item>Asistente</item>
+        <item>Gerente</item>
+    </string-array>
+    <string name="ej3_btn">Calcular Salarios</string>
+
+
+
+
+
+</resources>
